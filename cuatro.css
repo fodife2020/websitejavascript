@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+h3 {
+  text-align: center;
+  font-style: italic;
+}
+
+.parrafo {
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.parrafos {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: justify;
+  font-size: medium;
+}
+
+
+
+.titulo {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.parra {
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#menu {
+  width: 300px;
+  height: 50px;
+  background-color: lightblue;
+  float: left;
+  text-decoration: none;
+  text-align: center;
+}
+
+#botones ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#botones ul li {
+  display: inline;
+}
+
+#botones ul li a {
+  display: inline-block;
+  color: azure;
+  text-decoration: none;
+  padding: 25px 12px;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+
+#botones ul li a:hover {
+  background-color: lightslategray;
+  color: rgb(13, 8, 75);
+}
+
+#conteiner {
+  width: 960px;
+  height: 850px;
+  background-color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+header {
+  background-image: url(imagenes/venas.jpg);
+  border: groove 2px #000000;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 960px;
+  height: 160px;
+  s
+}
+
+#logo {
+  width: 960px;
+  height: 85px;
+}
+
+#segundo {
+  width: 960px;
+  height: 300px;
+  background-color: rgb(196, 247, 244);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  width: 960px;
+  height: 80px;
+  clear: both;
+  text-align: center;
+  margin-top: 30px;
+  background-color: darkseagreen;
+  font-size: larger;
+  padding-top: 40px;
+}
+
+#proyecto {
+  width: 960px;
+  height: 370px;
+  background-color: azure;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media handheld, screen and (min-width:600px) and (max-width:1023px) {
+  #conteiner {
+    width: 950px;
+    height: 800px;
+  }
+  header {
+    width: 950px;
+    height: 200px;
+  }
+  #logo {
+    width: 950px;
+    height: 85px;
+  }
+  #menu {
+    width: 250px;
+    height: 50px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #segundo {
+    width: 950px;
+    height: 300px;
+    font-weight: bolder;
+  }
+  footer {
+    width: 960px;
+  }
+  #proyecto {
+    width: 950px;
+    height: 370px;
+  }
+}
+
+@media handheld, screen and (max-width:599px) {
+  #conteiner {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    width: 98%;
+    height: auto;
+  }
+  #logo {
+    width: 35%;
+    height: auto;
+  }
+  #logo img {
+    width: 96%;
+    height: auto;
+  }
+  #botones ul li {
+    display: block;
+  }
+  #botones ul li a {
+    display: block;
+    padding: 3%;
+    margin-bottom: 0.5em;
+    border-radius: 2em;
+    font-size: large;
+  }
+  h1 {
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: -0.2em 0.5em 0.3em #000000;
+  }
+  h2 {
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2em --0.5em 1em #000000;
+  }
+  h3 {
+    text-align: center;
+    font-style: italic;
+  }
+  .parrafo {
+    width: 94%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .parrafos {
+    width: 94%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .titulo {
+    text-align: center;
+    font-weight: bolder;
+  }
+  .parra {
+    width: 94%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #menu {
+    width: 30%;
+    height: auto;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #segundo {
+    width: 98%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+    background-color: darkseagreen;
+  }
+  #pie {
+    height: auto;
+    width: 100%;
+    font-weight: bolder;
+  }
+  #proyecto {
+    margin-bottom: auto;
+    width: 100%;
+    height: auto;
+  }
+}

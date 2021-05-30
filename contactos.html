@@ -1,0 +1,148 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta charset="utf-8" />
+<link  rel="icon"   href="imagenes/favicon.jpg" type="image/jpg" />
+<meta name= "viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, initial-scale=1.0, minimun-scale=1.0, maximun-scale=1.0"/>
+<title>contactos_FODIFE</title>
+<style>
+    body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: rgb(224, 229, 231);
+	margin:0;
+
+	}
+
+#contenedor {
+	width:860px;
+	height:900;
+	margin-left:auto;
+	margin-right:auto;
+
+	
+	}
+
+header {
+	height:100px;
+	}
+
+h1 {
+	margin:0 0 0 40px;
+	font-size:36px;
+	color:#333;
+	
+	}
+
+a {
+	color:#80C141;
+	text-decoration:none;
+}
+	
+#contenido {
+	padding:20px;
+	background-color:#FFF;
+	border-left: 20px solid #80C141;
+	-moz-box-shadow: 10px 10px 9px #000000;
+-webkit-box-shadow: 10px 10px 9px #000000;
+box-shadow: 10px 10px 9px #000000;
+	
+	}
+
+h2 {
+	color:#666;
+	}
+span{
+	color: tomato;
+}
+#span_submit{
+	color: #80c141;
+}
+	@media handheld, screen and (min-width:600px) and (max-width:1023px){
+		
+
+	}
+
+
+
+	@media handheld, screen and (max-width:599px){
+		
+
+   #contenedor {
+	width:86%;
+	height:auto;
+	
+	
+	}
+
+   header {
+	height:auto;
+	}
+
+   h1 {
+	margin: 0,0,2em,2em;
+	
+	font-size:1.5em;
+	
+	
+	}
+
+  
+	
+   #contenido {
+	padding:1em;
+	border-left: 1em solid #80C141;
+	-moz-box-shadow: 0.7em 0.7em 0.6em #000000;
+    webkit-box-shadow: 0.7em 0.7em o.6em #000000;
+    box-shadow: 0.7em 0.7em 0.6em #000000;
+	
+	}
+
+
+	}
+	
+</style>
+
+</head>
+
+<body>
+<section id="contenedor">
+	<header>
+    	
+        <div>
+            <br>
+			<h1>Para saber mas de FODIFE</h1>
+			<br>
+        </div>
+    </header>
+    <section id="contenido">
+    <h2>Contáctenos</h2>
+
+    <form method="POST" action="#" id="form" >
+        <ul>
+            <li>Nombre: <input type="text" name="nombre"  id="nombre"/>
+			<span id="span_nombre"></span></li>
+            <li>Apellido: <input type="text" name="apellido" id="apellido" /><span id="span_apellido"></span>
+			</li>
+
+            <li>Empresa: <input type="text" name="empresa" id="empresa" /><span id="span_empresa"></span></li>
+			<li>Especialidad: <input type="text" name="especialidad" id="especialidad" /><span id="span_especialidad"></span></li>
+			<li>Telefono: <input type="tel" name="telefono" id="telefono" /><span id="span_telefono"></span></li>
+            <li>Email: <input type="email" name="email" id="email" /><span id="span_email"></span></li>
+            <li>Asunto: <input type="text" name="asunto" id="asunto" /><span id="span_asunto"></span></li>
+            <li>Mensaje: <textarea name="mensaje" cols="20" rows="3" id="mensaje"></textarea><span id="span_mensaje"></span></li>
+		   <li><input type="submit" value="Enviar" id="btn_enviar" />
+			<span id="span_submit"></span></li>
+		   <br>
+           <li><input name="Restablecer" type="reset" value="Borrar" /></li>
+</ul>
+        </ul>
+	</form>
+	<a href="index.html"><p>Ir al Inicio</p>
+		
+	</section>
+	
+</section>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
